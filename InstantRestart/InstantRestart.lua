@@ -14,7 +14,7 @@ SMODS.Keybind{
             G.PROFILES[G.SETTINGS.profile].high_scores.current_streak.amt = 0
         end
         G:save_settings()
-        --G.SETTINGS.current_setup = 'New Run'
+        G.SETTINGS.current_setup = 'New Run'
         G.GAME.viewed_back = nil
         G.run_setup_seed = G.GAME.seeded
         G.challenge_tab = G.GAME and G.GAME.challenge and G.GAME.challenge_tab or nil
